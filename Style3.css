@@ -1,0 +1,48 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: aqua; 
+  }
+  
+  header {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  
+  main {
+    flex: 1;
+    padding-right: 1rem;
+  }
+  
+  aside {
+    width: 300px;
+    padding: 1rem;
+    background-color: skyblue;
+    border-left: 1px solid black;
+  }
+  
+  footer {
+    background: linear-gradient(to top, black, white);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    aside {
+      width: 100%;
+      border-left: none;
+      margin-bottom: 1rem;
+    }
+}

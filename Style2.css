@@ -1,0 +1,60 @@
+.hero-section {
+    background-color: Black;
+    color: white;
+    padding: 5rem 0;
+  }
+  
+  body {
+    background: linear-gradient(to right, violet, blue);
+  }
+  .card {
+    transition: transform 0.3s;  
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+     background: linear-gradient(to top, black, white);
+    color: white;
+  }
+  
+  .service-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card .card-body {
+    background-color: aqua;
+    padding: 2rem;
+    width: fit-content;
+    align-content: center;
+
+  }
+  
+  .service-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .service-card .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .service-card .btn:hover {
+    background-color: #0056b3;
+  }
+
+
+  
